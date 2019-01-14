@@ -14,7 +14,8 @@
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <div class="float-right">
                 {% for category in post.categories %}
-                <a href="{{ category | prepend: 'category/' | append: '.html' | relative_url }}" class="badge badge-pill badge-primary">{{ category }}</a>
+                {% assign category_url = 'category/' | append: category | append: '/' %}
+                <a href="{{ category_url | relative_url }}" class="badge badge-pill badge-primary">{{ category }}</a>
                 {% endfor %}
             </div>
         </div>
