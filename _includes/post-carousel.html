@@ -2,21 +2,22 @@
     <div class="col col-md-8">
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-            {% for image in page.gallery %}
+                {% for image in page.gallery %}
                 {% if forloop.first %}
                 <li data-target="#carousel" data-slide-to="{{ forloop.index0 }}" class="active"></li>
                 {% else %}
                 <li data-target="#carousel" data-slide-to="{{ forloop.index0 }}"></li>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
             </ol>
             <div class="carousel-inner">
-            {% for image in page.gallery %}
+                {% for image in page.gallery %}
                 {% if forloop.first %}
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col">
-                            <img class="d-block w-100" src="{{ image | prepend: '/assets/images/' | relative_url }}" alt="">
+                            <img class="d-block w-100" src="{{ image | prepend: '/assets/images/' | relative_url }}"
+                                alt="">
                         </div>
                     </div>
                 </div>
@@ -24,12 +25,13 @@
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col">
-                            <img class="d-block w-100" src="{{ image | prepend: '/assets/images/' | relative_url }}" alt="">
+                            <img class="d-block w-100" src="{{ image | prepend: '/assets/images/' | relative_url }}"
+                                alt="">
                         </div>
                     </div>
                 </div>
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
             </div>
             <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
