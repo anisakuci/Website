@@ -1,25 +1,28 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ "assets/css/front.css" | relative_url }}">
 
-{% seo %}
-    </head>
-    <body>
-        <div class="container">
-          <div class="row align-items-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ 'assets/css/front.css' | relative_url }}">
+
+    {% seo %}
+</head>
+
+<body>
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col text-center">
                 <h1>{{ site.title }}</h1>
                 <h2>{{ site.description }}</h2>
 
                 <ul>
-                    <li><a class="fas fa-2x fa-rss" href="{{ 'blog.html' | relative_url }}" title="Blog"></a></li>
+                    <li><a class="fas fa-2x fa-rss" href="{% link blog.html %}" title="Blog"></a></li>
 
                     {% if site.github.username %}
                     <li><a class="fab fa-2x fa-github" href="https://github.com/{{ site.github.username }}" title="GitHub"></a></li>
@@ -34,7 +37,8 @@
                     {% endif %}
                 </ul>
             </div>
-          </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
