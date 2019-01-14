@@ -1,0 +1,20 @@
+title: Anisa Kuci
+description: My personal Blog
+
+email: ping@anisakuci.com
+twitter:
+    username: AnisaKuci
+github:
+    username: anisakuci
+
+# baseurl: "/" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+plugins:
+    - jekyll-feed
+    - jekyll-sitemap
+sass:
+    sass_dir: assets/css
+    style: compressed

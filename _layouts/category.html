@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1 class="mt-3">Category: {{ page.title }}</h1>
+
+<hr>
+
+{% if page.content != '' %}
+
+    {{ page.content }}
+
+    <hr>
+
+{% endif %}
+
+{% for post in site.categories[page.category] %}
+
+    {% include post-list.html %}
+
+{% endfor %}

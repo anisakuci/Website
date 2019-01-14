@@ -1,0 +1,19 @@
+<div id="header" class="text-center">
+    <h1>{{ site.title }}</h1>
+
+    <ul class="list-inline">
+        <li class="list-inline-item"><a class="fas fa-rss" href="{{ 'blog.html' | relative_url }}" title="Blog"></a></li>
+
+        {% if site.github.username %}
+        <li class="list-inline-item"><a class="fab fa-github" href="https://github.com/{{ site.github.username }}" title="GitHub"></a></li>
+        {% endif %}
+
+        {% if site.twitter.username %}
+        <li class="list-inline-item"><a class="fab fa-twitter" href="https://twitter.com/{{ site.twitter.username }}" title="Twitter"></a></li>
+        {% endif %}
+
+        {% if site.email %}
+        <li class="list-inline-item"><a class="fas fa-envelope" href="mailto:{{ site.email }}" title="Email"></a></li>
+        {% endif %}
+    </ul>
+</div>

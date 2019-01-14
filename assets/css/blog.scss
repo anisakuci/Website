@@ -1,0 +1,51 @@
+---
+---
+
+.container {
+    img,
+    iframe {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        max-width: 100%;
+
+        & + em {
+            display: block !important;
+            font-size: small;
+            text-align: center;
+        }
+    }
+
+    .post-header {
+        background-position: center center; 
+        background-size: cover;
+        height: 250px;
+    }
+}
+
+#header {
+    border-bottom: 0.5px solid rgba(33, 37, 41, 0.5);
+    margin-top: 40px;
+
+    @import "icons";
+
+    li {
+        border: 2px solid rgb(33, 37, 41);
+
+        a {
+            color: rgb(33, 37, 41);
+            padding: 7px;
+
+            &:hover {
+                color: rgb(33, 37, 41);
+            }
+        }
+    }
+}
+
+#footer {
+    border-top: 0.5px solid rgba(33, 37, 41, 0.5);
+    font-size: small;
+    margin-bottom: 40px;
+    padding-top: 1rem;
+}
