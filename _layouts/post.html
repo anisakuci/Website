@@ -28,6 +28,12 @@ layout: default
         {% include post-carousel.html %}
         {% endif %}
 
+        {% if page.tags.size > 0 %}
+        <div class="small text-muted">
+            <strong>Tags:</strong> {{ page.tags | join:', ' }}
+        </div>
+        {% endif %}
+
         <hr>
         <div class="row">
             <div class="col text-center text-md-left">

@@ -3,6 +3,7 @@ layout: post
 title: FOSScamp Day 5
 categories: events fosscamp
 image: 2017-09-04-fosscamp-day-5.jpg
+tags: [Debian, FOSScamp, free software, libre office, openstreetmap, openstreetmap albania, syros, WikiLovesMaps]
 ---
 As usual, after having breakfast, we all meet at the cafeteria.
 Today, we keep translating the Debian installer (and some packages) and [Anxhelo Lushka](https://lushka.al/) showed us how to contribute with LibreOffice translation.

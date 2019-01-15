@@ -3,6 +3,7 @@ layout: post
 title: FOSScamp Day 2
 categories: events fosscamp
 image: 2017-09-01-fosscamp-day-2.jpg
+tags: [Debian, FOSScamp, free software, libre office, openstreetmap, syros, WikiLovesMaps]
 ---
 Let see what’s on the agenda today :
 

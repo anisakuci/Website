@@ -3,6 +3,7 @@ layout: post
 title: FOSScamp Day 3
 categories: events fosscamp
 image: 2017-09-02-fosscamp-day-3.jpg
+tags: [Debian, FOSScamp, free software, libre office, openstreetmap, syros, WikiLovesMaps]
 ---
 This morning was really REALLY quiet … People recovered from last nights adventure !
 

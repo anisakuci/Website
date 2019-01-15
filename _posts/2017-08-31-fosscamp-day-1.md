@@ -3,6 +3,7 @@ layout: post
 title: FOSScamp Day 1
 categories: events fosscamp
 image: 2017-08-31-fosscamp-day-1.jpg
+tags: [Debian, FOSScamp, free software, libre office, openstreetmap, syros, WikiLovesMaps]
 ---
 First thing of the day, the whole team gathered to organize the day and following days around a nice breakfast and a cup of coffee.
 Plenty of interesting things on the agenda ([Wikipedia](https://www.wikipedia.org/), [OpenStreetMap](https://www.openstreetmap.org/), [Mapillary](http://www.mapillary.com/), [Debian](https://www.debian.org/), [LibreOffice](https://www.libreoffice.org/) contributions but also workshops about differents topics such as WebVR, 360 cameras, …).

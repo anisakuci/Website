@@ -3,6 +3,7 @@ layout: post
 title: FOSScamp Day 4
 categories: events fosscamp
 image: 2017-09-03-fosscamp-day-4.jpg
+tags: [Debian, FOSScamp, free software, libre office, openstreetmap, syros, WikiLovesMaps]
 ---
 First plan for today, discover Syros island !
 We all took the bus to go to [Kini beach](https://www.openstreetmap.org/way/216120236) on the other side of Syros.

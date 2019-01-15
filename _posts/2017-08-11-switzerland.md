@@ -12,6 +12,7 @@ gallery:
     - 2017-08-11-switzerland/DSC_6063.jpg  
     - 2017-08-11-switzerland/DSC_6067.jpg  
     - 2017-08-11-switzerland/DSC_6267.jpg
+tags: [CoSin, Debian, Food Computer, free software, Open Agriculture, SeedCity]
 ---
 The last few days were full of surprises, Zurich is a city with many places to discover.
 It all started during [OSCAL](http://oscal.openlabs.cc/), were I had a talk with a friend of mine about agriculture, he held a short presentation at OSCAL about this topic and afterwards I was told that a meeting is organized in Zurich related to Open Agriculture and Food Computer and that I was invited to attend the meeting.

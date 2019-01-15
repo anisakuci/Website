@@ -3,6 +3,7 @@ layout: post
 title: FOSScamp Day 6
 categories: events fosscamp
 image: 2017-09-06-fosscamp-day-6.jpg
+tags: [Debian, FOSScamp, free software, libre office, openstreetmap, syros, WikiLovesMaps]
 ---
 Last day of FOSSCamp 2017, time to wrap things up !
 
