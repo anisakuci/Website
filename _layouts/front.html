@@ -22,7 +22,7 @@
                 <h2>{{ site.description }}</h2>
 
                 <ul>
-                    <li><a class="fas fa-2x fa-rss" href="{% link blog.html %}" title="Blog"></a></li>
+                    <li><a class="fas fa-2x fa-rss" href="{{ site.baseurl }}{% link blog.html %}" title="Blog"></a></li>
 
                     {% if site.github.username %}
                     <li><a class="fab fa-2x fa-github" href="https://github.com/{{ site.github.username }}" title="GitHub"></a></li>
