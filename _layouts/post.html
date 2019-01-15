@@ -32,12 +32,12 @@ layout: default
         <div class="row">
             <div class="col text-center text-md-left">
                 {% if page.previous != nil %}
-                <a href="{{ page.previous.url }}" class="btn btn-outline-primary">&laquo; {{ page.previous.title }}</a>
+                <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn btn-outline-primary">&laquo; {{ page.previous.title }}</a>
                 {% endif %}
             </div>
             <div class="col text-center text-md-right">
                 {% if page.next != nil %}
-                <a href="{{ page.next.url }}" class="btn btn-outline-primary">{{ page.next.title }} &raquo;</a>
+                <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn btn-outline-primary">{{ page.next.title }} &raquo;</a>
                 {% endif %}
             </div>
         </div>
