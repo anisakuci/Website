@@ -28,6 +28,10 @@
                     <li><a class="fab fa-2x fa-github" href="https://github.com/{{ site.github.username }}" title="GitHub"></a></li>
                     {% endif %}
 
+                    {% if site.salsa.username %}
+                    <li><a class="fab fa-2x fa-gitlab" href="https://salsa.debian.org/{{ site.salsa.username }}" title="Debian Salsa"></a></li>
+                    {% endif %}
+
                     {% if site.twitter.username %}
                     <li><a class="fab fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter.username }}" title="Twitter"></a></li>
                     {% endif %}

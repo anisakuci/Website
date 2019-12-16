@@ -12,6 +12,12 @@
         </li>
         {% endif %}
 
+        {% if site.salsa.username %}
+        <li class="list-inline-item">
+            <a class="fab fa-gitlab" href="https://salsa.debian.org/{{ site.salsa.username }}" title="Debian Salsa"></a>
+        </li>
+        {% endif %}
+
         {% if site.twitter.username %}
         <li class="list-inline-item">
             <a class="fab fa-twitter" href="https://twitter.com/{{ site.twitter.username }}" title="Twitter"></a>
